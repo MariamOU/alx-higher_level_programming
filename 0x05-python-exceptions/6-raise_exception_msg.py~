@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+def raise_exception_msg(message=""):
+    class MyException(Exception):
+        pass
+
+    if message:
+        raise MyException(message)
+    else:
+        raise MyException()
