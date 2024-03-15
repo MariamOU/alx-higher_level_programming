@@ -2,11 +2,9 @@
 function factorial (a) {
   if (a < 0) {
     return (-1);
-  }
-  else if (a === 0 || isNaN(a)) {
+  } else if (a === 0 || isNaN(a)) {
     return (1);
-  }
-  else {
+  } else {
     return (a * factorial(a - 1));
   }
 }
