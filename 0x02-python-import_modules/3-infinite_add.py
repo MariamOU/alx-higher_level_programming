@@ -3,5 +3,5 @@ if __name__ == "__main__":
     from sys import argv
     add_args = 0
     for i in range(1, len(argv)):
-       add_args += int(argv[i])
+        add_args += int(argv[i])
     print("{}".format(add_args))
