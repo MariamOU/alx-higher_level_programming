@@ -2,6 +2,9 @@
 import random
 number = random.randint(-10000, 10000)
 ld = abs(number) % 10
+if number == 0:
+    print("Last digit of", number, "is", ld, end=" ")
+    print("and is 0")
 if number > 0:
     print("Last digit of", number, "is", ld, end=" ")
     if ld == 0:
